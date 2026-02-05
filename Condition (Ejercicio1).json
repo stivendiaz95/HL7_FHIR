@@ -1,0 +1,64 @@
+{
+    "resourceType": "Condition",
+    "subject": {
+        "reference": "Patient/121410",
+        "display": "Gustavo Ivan Duque Urrego"
+    },
+    "clinicalStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "resolved"
+            }
+        ],
+        "text": "resolved"
+    },
+    "verificationStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+            }
+        ],
+        "text": "confirmed"
+    },
+    "severity": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "6736007"
+            }
+        ],
+        "text": "Moderate"
+    },
+    "code": {
+        "coding": [
+            {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "A059",
+                "display": "Intoxicación alimentaria bacteriana, no especificada"
+            }
+        ],
+        "text": "Intoxicación alimentaria bacteriana, no especificada"
+    },
+    "onsetDateTime": "2022-03-17",
+    "abatementDateTime": "2022-04-25",
+    "note": [
+        {
+            "authorReference": {
+                "reference": "Practitioner/TP-7649328645",
+                "display": "Diego Alberto Espinoza Silva"
+            },
+            "text": "Las pruebas diagnosticas confirman el diagnóstico.",
+            "time": "2022-03-20"
+        },
+        {
+            "authorReference": {
+                "reference": "Practitioner/TP-7649328645",
+                "display": "Diego Alberto Espinoza Silva"
+            },
+            "text": "Posterior al tratamiento farmacologico se confirma la resolución de la condición.",
+            "time": "2022-03-25"
+        }
+    ]
+}
