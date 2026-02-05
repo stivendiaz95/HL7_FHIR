@@ -1,0 +1,39 @@
+{
+    "resourceType": "Specimen",
+    "accessionIdentifier": [
+        {
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "use": "official",
+            "value": "TMR23480-FH"
+        }
+    ],
+    "status": "available",
+    "type": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-048",
+                "code": "TUMOR",
+                "display": "Tumor"
+            }
+        ],
+        "text": "Tumor"
+    },
+    "receivedTime": "2022-03-24T14:23:38",
+    "subject": {
+        "reference": "Patient/121410",
+        "display": "John Doe"
+    },
+    "collection": {
+        "collectedDateTime": "2022-03-24T09:11:20",
+        "bodySite": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "80248007",
+                    "display": "Left breast structure (body structure)"
+                }
+            ],
+            "text": "mama izquierda"
+        }
+    }
+}

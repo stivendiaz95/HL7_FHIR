@@ -1,0 +1,29 @@
+{
+    "resourceType": "BodyStructure",
+    "active": true,
+    "morphology": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "8145008",
+                "display": "Malignant mixed salivary gland tumor"
+            }
+        ],
+        "text": "Tumor mixto maligno"
+    },
+    "location": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "80248007",
+                "display": "Left breast structure (body structure)"
+            }
+        ],
+        "text": "mama izquierda"
+    },
+    "description": "Neoplasia estromal Y/O mixta compleja, primaria",
+    "subject": {
+        "reference": "Patient/121410",
+        "display": "John Doe"
+    }
+}
